@@ -1,5 +1,5 @@
 
-# Python Object Initialization Lab
+# Object Initialization - Lab
 
 ## Introduction
 In this lab, we will practice defining classes with custom `__init__` methods. We will define two classes, Driver and Passenger in the driver.py and passenger.py files, respectively.
