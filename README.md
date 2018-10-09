@@ -6,6 +6,8 @@ In this lab, we will practice defining classes with custom `__init__` methods. W
 
 ## Objectives
 
+You will be able to:
+
 * Define custom `__init__` methods for object initialization
 * Create instance variables in the `__init__` method 
 * Use default arguments in the `__init__` method
