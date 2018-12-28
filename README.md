@@ -2,7 +2,7 @@
 # Object Initialization - Lab
 
 ## Introduction
-In this lab, we will practice defining classes with custom `__init__` methods. We will define two classes, Driver in the cells below. Follow the instructions in order to get the tests to pass.
+In this lab, we will practice defining classes with custom `__init__` methods. We will define two classes, Driver and Passenger in the cells below. Follow the instructions in order to get the tests to pass.
 
 ## Objectives
 
