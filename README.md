@@ -2,7 +2,7 @@
 # Object Initialization - Lab
 
 ## Introduction
-In this lab, we will practice defining classes with custom `__init__` methods. We will define two classes, Driver and Passenger in the driver.py and passenger.py files, respectively.
+In this lab, we will practice defining classes with custom `__init__` methods. We will define two classes, Driver in the cells below. Follow the instructions in order to get the tests to pass.
 
 ## Objectives
 
@@ -14,24 +14,25 @@ You will be able to:
 
 ## Initializing Instance Objects
 
-> **Remeber:** load the autoreload extension to make sure that our code is re-imported
-```pyhton
-%load_ext autoreload
-%autoreload 2
-```
+Let's start off by defining Driver and Passenger classes. In the Passenger class, we will want our passengers to have the attributes `first`, `last`, `email`, and `rides_taken` for their first name, last name, email, and number of rides they have taken. Let's provide our `__init__` method with the default argument of `0` for the `rides_taken` attribute since new passengers should not have taken any rides. 
 
-Start off by defining Driver and Passenger classes. In the Passenger class, we will want our passengers to have a first name, last name, email, and rides taken attributes. Let's define our `__init__` method to instantiate these by default and give rides taken a default argument of '0' since new passengers should not have taken any rides. 
-
-After we've defined our Passenger `__init__` method, check it out by initializing a new passenger with the first name "Rebecca", the last name "Black", and the email "rebecca.black@gmail.com". Don't worry about creating instance methods or using any attribute decorators in this lesson. We can just instantiate instance variables and use those to access the instance's attributes.
+After we've defined our Passenger `__init__` method, check it out by initializing a new passenger with the first name `"Rebecca"`, the last name `"Black"`, and the email `"rebecca.black@gmail.com"`. Don't worry about creating instance methods or using any attribute decorators in this lesson. We can just instantiate instance variables and use those to access the instance's attributes.
 
 
 ```python
-from passenger import Passenger
+# Define Passenger Class Here
+class Passenger():
+    
+    def __init__(self, first, last, email, rides_taken):
+        self.first = first
+        self.last = last
+        self.email = email
+        self.rides_taken = rides_taken
 ```
 
 
 ```python
-rebecca_black = Passenger("Rebecca", "Black", "rebecca.black@gmail.com") # initialize Rebecca Black here
+rebecca_black = Passenger("Rebecca", "Black", "rebecca.black@gmail.com", 0) # initialize Rebecca Black here
 print(rebecca_black.first) # "Rebecca"
 print(rebecca_black.last) # "Black"
 print(rebecca_black.email) # "rebecca.black@gmail.com"
@@ -48,13 +49,19 @@ print(rebecca_black.rides_taken) # 0
 
 Great work! Rebecca Black is now in the system and ready to request her ride to the party on Friday! Friday! Friday!
 
-In the Driver class, define an `__init__` method that initializes a driver with the attributes first name, last name, and favorite hobby, which will have a default argument of "driving". 
+In the Driver class, define an `__init__` method that initializes a driver with the attributes `first`, `last`, and `favorite_hobby` for their first name, last name, and favorite hobby. Let's provide a default argument of `"driving"` for `favorite_hobby`, since we would hope they are ***doing what they love***! 
 
-After we have our Driver `__init__` method, let's initialize a driver with the first name "Dale", last name "Earnhardt". Again, don't worry about creating any instance methods or using any property decorators.
+After we have our Driver `__init__` method, let's initialize a driver with the first name `"Dale"`, last name `"Earnhardt"`. Again, don't worry about creating any instance methods or using any property decorators.
 
 
 ```python
-from driver import Driver
+# Define Passenger Class Here
+class Driver():
+    
+    def __init__(self, first, last, favorite_hobby = "driving"):
+        self.first = first
+        self.last = last
+        self.favorite_hobby = favorite_hobby
 ```
 
 
