@@ -14,7 +14,7 @@ You will be able to:
 
 ## Initializing Instance Objects
 
-Start off by defining Driver, similar to as you've done before. This time, define an `__init__` method that initializes a driver with the attributes `first`, `last`, and `occupation` for their first name, last name, and occupation. Provide a default argument of `"driving"` for `occupation`.
+Start off by defining Driver, similar to as you've done before. This time, define an `__init__` method that initializes a driver with the attributes `first`, `last`, and `occupation` for their first name, last name, and occupation. Provide a default argument of `"driver"` for `occupation`.
 
 
 ```python
@@ -47,7 +47,7 @@ Now that you've defined a Passenger class, check it out by initializing a new pa
 jerry = None # initialize Mr. Seinfeld here
 print(jerry.first) # "Jerry"
 print(jerry.last) # "Seinfeld"
-print(jerry.email) # "jerry.seinfeld@gmail.com"
+print(jerry.email) # "jerry.seinfeld@mailinator.com"
 print(jerry.rides_taken) # 0
 ```
 
