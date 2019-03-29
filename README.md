@@ -27,7 +27,7 @@ class Driver():
         self.occupation = occupation
 ```
 
-Now, initialize a driver with the first name `"Dale"`, last name `"Earnhardt"`. Again, don't worry about creating any instance methods or using any property decorators.
+Now, initialize a driver with the first name `"Dale"`, last name `"Earnhardt"`.
 
 <img src="images/dale.gif" width=500>
 
