@@ -29,7 +29,7 @@ class Driver():
 
 Now, initialize a driver with the first name `"Dale"`, last name `"Earnhardt"`.
 
-<img src="images/dale.gif" width=500>
+<img src="images/dale.gif" width="500">
 
 
 ```python
