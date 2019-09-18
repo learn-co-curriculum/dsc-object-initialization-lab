@@ -80,4 +80,4 @@ Great work! Mr. Seinfeld is now in the system and ready to request a ride!
 ## Summary
 
 
-In this lab, you practiced definining custom `__init__` methods that allowed you to initialize new instances with a set of predetermined attributes and default attributes.
+In this lab, you practiced defining custom `__init__` methods that allowed you to initialize new instances with a set of predetermined attributes and default attributes.
