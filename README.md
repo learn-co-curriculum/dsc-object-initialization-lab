@@ -8,10 +8,10 @@ In this lab, you'll practice defining classes with custom `__init__` methods. Yo
 
 You will be able to:
 
-* Define custom `__init__` methods for object initialization
-* Create instance variables in the `__init__` method
-* Use default and positional arguments in the `__init__` method
-* Compare default and positional arguments within Python functions
+- Define custom `__init__` methods for object initialization
+- Create instance variables in the `__init__` method
+- Use default and positional arguments in the `__init__` method
+- Compare default and positional arguments within Python functions
 
 ## Initializing Instance Objects
 
