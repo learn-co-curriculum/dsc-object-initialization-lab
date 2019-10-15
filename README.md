@@ -9,8 +9,9 @@ In this lab, you'll practice defining classes with custom `__init__` methods. Yo
 You will be able to:
 
 * Define custom `__init__` methods for object initialization
-* Create instance variables in the `__init__` method 
-* Use default arguments in the `__init__` method
+* Create instance variables in the `__init__` method
+* Use default and positional arguments in the `__init__` method
+* Compare default and positional arguments within Python functions
 
 ## Initializing Instance Objects
 
@@ -24,6 +25,8 @@ Start off by defining Driver, similar to as you've done before. This time, defin
 Now, initialize a driver with the first name `"Dale"`, last name `"Earnhardt"`.
 
 <img src="images/dale.gif" width="500">
+
+gif from [Nascar](https://giphy.com/nascar)
 
 
 ```python
