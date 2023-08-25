@@ -1,4 +1,3 @@
-
 # Object Initialization - Lab
 
 ## Introduction
@@ -22,7 +21,7 @@ Start off by defining the `Driver` class, similar to as you've done before. This
 
 Now, initialize a driver with the first name `"Dale"` and last name `"Earnhardt"`.
 
-<img src="images/dale.gif" width="500">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/dale.gif" width="500">
 
 gif from [Nascar](https://giphy.com/nascar)
 
